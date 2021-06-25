@@ -11,6 +11,10 @@ public class Person {
 
 	@Id
 	private int id;
+	public Person() {
+		super();
+	}
+
 	private String name;
 	private String mobileNumber;
 	private Date dob;

@@ -4,10 +4,12 @@ import java.util.Collection;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.spring.rest.mongo.dao.PersonDao;
 import com.spring.rest.mongo.model.Person;
 
+@Component
 public class PersonServiceImpl implements Personservice {
 
 	@Autowired
